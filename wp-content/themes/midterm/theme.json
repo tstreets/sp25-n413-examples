@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        { "color": "", "name": "Primary", "slug": "primary" },
+        { "color": "", "name": "Accent", "slug": "accent" },
+        { "color": "", "name": "Background", "slug": "background" },
+        { "color": "", "name": "Text", "slug": "text" }
+      ]
+    },
+    "layout": {
+      "contentSize": "820px",
+      "wideSize": "1300px"
+    }
+  },
+  "styles": {}
+}
