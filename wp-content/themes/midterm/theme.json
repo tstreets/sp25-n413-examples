@@ -20,6 +20,12 @@
     "color": {
       "background": "var:preset|color|background"
     },
+    "spacing": {
+      "padding": {
+        "left": "50px",
+        "right": "50px"
+      }
+    },
     "blocks": {
       "core/navigation": {
         "color": {
