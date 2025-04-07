@@ -27,6 +27,9 @@
       }
     },
     "blocks": {
+      "core/paragraph": {
+        "css": ".author span { color: var(--wp--preset--color--accent); padding-right: 20px; }"
+      },
       "core/navigation": {
         "color": {
           "background": "var:preset|color|primary"
