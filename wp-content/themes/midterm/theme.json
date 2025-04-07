@@ -5,10 +5,10 @@
     "appearanceTools": true,
     "color": {
       "palette": [
-        { "color": "", "name": "Primary", "slug": "primary" },
-        { "color": "", "name": "Accent", "slug": "accent" },
-        { "color": "", "name": "Background", "slug": "background" },
-        { "color": "", "name": "Text", "slug": "text" }
+        { "color": "#3498D8", "name": "Primary", "slug": "primary" },
+        { "color": "#FA970A", "name": "Accent", "slug": "accent" },
+        { "color": "#E5ECF1", "name": "Background", "slug": "background" },
+        { "color": "#000000", "name": "Text", "slug": "text" }
       ]
     },
     "layout": {
@@ -16,5 +16,39 @@
       "wideSize": "1300px"
     }
   },
-  "styles": {}
+  "styles": {
+    "color": {
+      "background": "var:preset|color|background"
+    },
+    "blocks": {
+      "core/navigation": {
+        "color": {
+          "background": "var:preset|color|primary"
+        },
+        "spacing": {
+          "padding": {
+            "bottom": "10px",
+            "top": "10px",
+            "left": "30px",
+            "right": "30px"
+          }
+        }
+      },
+      "core/navigation-link": {
+        "spacing": {
+          "padding": {
+            "bottom": "12px"
+          }
+        },
+        "css": ".brand { font-size: 20px; font-weight: bold; }"
+      },
+      "core/search": {
+        "spacing": {
+          "padding": {
+            "right": "20px"
+          }
+        }
+      }
+    }
+  }
 }
