@@ -32,6 +32,11 @@
 			}
 		},
 		"blocks": {
+			"core/post-author-name": {
+				"color": {
+					"text": "var:preset|color|accent"
+				}
+			},
 			"core/paragraph": {
 				"css": ".author span { color: var(--wp--preset--color--accent); padding-right: 20px; }"
 			},
